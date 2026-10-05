@@ -1,0 +1,5 @@
+.terraform/
+.vscode/
+.config/Code/CachedExtensionVSIXs
+*.tfstate
+*.tfstate.*
