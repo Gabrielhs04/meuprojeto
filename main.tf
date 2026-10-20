@@ -27,7 +27,7 @@ resource "docker_container" "web" {
   }
 
   volumes {
-    host_path      = "${path.cwd}/site"
+    host_path      = "${path.cwd}/site."
     container_path = "/usr/share/nginx/html"
     read_only      = true
   }
